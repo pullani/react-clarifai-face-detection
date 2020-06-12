@@ -6,6 +6,9 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
         <div className='ma4'>
             <p className='f3'>
                 {'This Magic Brain will detect faces in your pictures. Give it a try!'}
+                <p className='f6 white'>
+                {'Your URL should end with a valid image extension.'}
+                </p>
             </p>
             <div className='center'>
                 <div className='form center pa4 br3 shadow-5'>
