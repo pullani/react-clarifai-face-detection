@@ -14,3 +14,24 @@
     #444;
     background-size: 16px 48px;
 } */
+
+
+::-webkit-input-placeholder {
+    text-align: center;
+    font-style: italic;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+    font-style: italic;
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+    font-style: italic;
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+    font-style: italic;
+ }

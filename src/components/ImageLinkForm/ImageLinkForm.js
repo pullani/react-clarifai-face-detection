@@ -3,13 +3,13 @@ import './ImageLinkForm.css'
 
 const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
     return (
-        <div>
+        <div className='ma4'>
             <p className='f3'>
                 {'This Magic Brain will detect faces in your pictures. Give it a try!'}
             </p>
             <div className='center'>
                 <div className='form center pa4 br3 shadow-5'>
-                    <input className='f4 pa2 w-70 center' type='text' onChange={onInputChange}/> {/*On change is react function which will  mimic onChange in html.*/}
+                    <input className='f4 pa2 w-70 center' type='text' placeholder="Paste your image URL." onChange={onInputChange}/> {/*On change is react function which will  mimic onChange in html.*/}
                     <button 
                     className='w-30 grow f4 link ph3 pv2 dib ba white bg-light-purple'
                     onClick={onButtonSubmit}
