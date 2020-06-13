@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "91be15ab3193b24f37113ac50d12f8fa",
+    "revision": "3b5b2bf067db5a7e6a422147452a3ecd",
     "url": "/react-clarifai-face-detection/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-clarifai-face-detection/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "bd1635eddbb7e52f82b7",
-    "url": "/react-clarifai-face-detection/static/css/main.b78f22eb.chunk.css"
+    "revision": "7032a023a36575010f2f",
+    "url": "/react-clarifai-face-detection/static/css/main.f192437b.chunk.css"
   },
   {
     "revision": "32d3dafe56700c2d4a34",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-clarifai-face-detection/static/js/2.4a5606af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bd1635eddbb7e52f82b7",
-    "url": "/react-clarifai-face-detection/static/js/main.b2b5b3fb.chunk.js"
+    "revision": "7032a023a36575010f2f",
+    "url": "/react-clarifai-face-detection/static/js/main.d35ee66a.chunk.js"
   },
   {
     "revision": "d6c42aa13f3cf584d140",
