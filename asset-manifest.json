@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-clarifai-face-detection/static/css/main.f192437b.chunk.css",
-    "main.js": "/react-clarifai-face-detection/static/js/main.81e4d1f1.chunk.js",
-    "main.js.map": "/react-clarifai-face-detection/static/js/main.81e4d1f1.chunk.js.map",
+    "main.css": "/react-clarifai-face-detection/static/css/main.74e98db7.chunk.css",
+    "main.js": "/react-clarifai-face-detection/static/js/main.ef19b95b.chunk.js",
+    "main.js.map": "/react-clarifai-face-detection/static/js/main.ef19b95b.chunk.js.map",
     "runtime-main.js": "/react-clarifai-face-detection/static/js/runtime-main.fb104765.js",
     "runtime-main.js.map": "/react-clarifai-face-detection/static/js/runtime-main.fb104765.js.map",
     "static/css/2.3c03f26f.chunk.css": "/react-clarifai-face-detection/static/css/2.3c03f26f.chunk.css",
-    "static/js/2.4a5606af.chunk.js": "/react-clarifai-face-detection/static/js/2.4a5606af.chunk.js",
-    "static/js/2.4a5606af.chunk.js.map": "/react-clarifai-face-detection/static/js/2.4a5606af.chunk.js.map",
+    "static/js/2.a1c25cee.chunk.js": "/react-clarifai-face-detection/static/js/2.a1c25cee.chunk.js",
+    "static/js/2.a1c25cee.chunk.js.map": "/react-clarifai-face-detection/static/js/2.a1c25cee.chunk.js.map",
     "index.html": "/react-clarifai-face-detection/index.html",
-    "precache-manifest.01e547f618871c935e7a5a1d7481c423.js": "/react-clarifai-face-detection/precache-manifest.01e547f618871c935e7a5a1d7481c423.js",
+    "precache-manifest.2a535d837d8636dcf979f5f485b3309b.js": "/react-clarifai-face-detection/precache-manifest.2a535d837d8636dcf979f5f485b3309b.js",
     "service-worker.js": "/react-clarifai-face-detection/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/react-clarifai-face-detection/static/css/2.3c03f26f.chunk.css.map",
-    "static/css/main.f192437b.chunk.css.map": "/react-clarifai-face-detection/static/css/main.f192437b.chunk.css.map",
-    "static/js/2.4a5606af.chunk.js.LICENSE.txt": "/react-clarifai-face-detection/static/js/2.4a5606af.chunk.js.LICENSE.txt"
+    "static/css/main.74e98db7.chunk.css.map": "/react-clarifai-face-detection/static/css/main.74e98db7.chunk.css.map",
+    "static/js/2.a1c25cee.chunk.js.LICENSE.txt": "/react-clarifai-face-detection/static/js/2.a1c25cee.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fb104765.js",
     "static/css/2.3c03f26f.chunk.css",
-    "static/js/2.4a5606af.chunk.js",
-    "static/css/main.f192437b.chunk.css",
-    "static/js/main.81e4d1f1.chunk.js"
+    "static/js/2.a1c25cee.chunk.js",
+    "static/css/main.74e98db7.chunk.css",
+    "static/js/main.ef19b95b.chunk.js"
   ]
 }
