@@ -5,10 +5,10 @@ import brain from './brain.png'
 
 const Logo = () => {
     return (
-        <div className='ma4 mt0 pa3 center'>
-            <Tilt className="Tilt br3 shadow-1" options={{ max : 55 }} style={{ height: 120, width: 120 }} >
+        <div className='mt4 mb4 pa0 center'>
+            <Tilt className="Tilt br3 shadow-2" options={{ max : 55 }} style={{ height: 120, width: 120 }} >
                 <div className="Tilt-inner pa3">
-                    <img style={{paddingTop: '1px'}}alt='logo' src={brain}></img>
+                    <img style={{paddingTop: '1px'}} alt='logo' src={brain}></img>
                 </div>
             </Tilt>
         </div>

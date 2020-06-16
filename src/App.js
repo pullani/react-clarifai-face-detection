@@ -19,7 +19,8 @@ class App extends Component {
     this.state = {
       input: '',
       imageUrl: '',
-      box:[]
+      box:[],
+      faceCountPrompt: ''
     }
   }
 
@@ -27,17 +28,28 @@ class App extends Component {
     const image = document.getElementById('inputImage');
     const width = Number(image.width);
     const height = Number(image.height);
-    return data.outputs[0].data.regions.map(face => {
-      const clarifaiFace = face.region_info.bounding_box;
-      return {
-        leftCol: clarifaiFace.left_col * width,
-        topRow: clarifaiFace.top_row * height,
-        rightCol: width - (clarifaiFace.right_col * width),
-        bottomRow: height - (clarifaiFace.bottom_row * height)
-      }
-    });
+    if (data.outputs[0].data.regions !== undefined ) {
+      return data.outputs[0].data.regions.map(face => {
+        const clarifaiFace = face.region_info.bounding_box;
+        return {
+          leftCol: clarifaiFace.left_col * width,
+          topRow: clarifaiFace.top_row * height,
+          rightCol: width - (clarifaiFace.right_col * width),
+          bottomRow: height - (clarifaiFace.bottom_row * height)
+        }
+      });
+    }
   }
   
+  getNumOfFaces = (data) => {
+    if (data.outputs[0].data.regions !== undefined) {
+        const faceCount = Object.keys(data.outputs[0].data.regions).length;
+        this.setState({faceCountPrompt: faceCount + ' faces found!'});
+    } else {
+        this.setState({faceCountPrompt: '0 faces found!'});
+    }
+    //console.log(this.state.faceCountPrompt);
+  }
 
   displayFaceBox = (box) => {
     this.setState({box: box})
@@ -56,8 +68,12 @@ class App extends Component {
       this.state.input)
     .then( response => {
         this.displayFaceBox(this.calculateFaceLocation(response))
+        return response;
         //console.log(response.outputs[0].data.regions[0].region_info.bounding_box);
       })
+    .then(response => {
+      this.getNumOfFaces(response)
+    })
     .catch (err => console.log(err));
   }
 
@@ -67,7 +83,7 @@ class App extends Component {
         <Particles className='particles' params={particlesOptions}/>
         <Logo />
         <ImageLinkForm onInputChange={this.onInputChange} onButtonSubmit={this.onButtonSubmit}/>
-        <FaceRecognition imageUrl={this.state.imageUrl} box={this.state.box} />
+        <FaceRecognition imageUrl={this.state.imageUrl} box={this.state.box} faceCountPrompt={this.state.faceCountPrompt} />
         <Footer />
       </div>
     );

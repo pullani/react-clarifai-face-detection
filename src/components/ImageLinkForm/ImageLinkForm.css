@@ -4,7 +4,7 @@
     /* background: linear-gradient(89deg, #FF5EDF  0%, #04C8DE  100%); */
 }
 
-/* For some texture */
+/* For some texture use this! */
 /* .form {
     width: 700px;
     background:
@@ -16,22 +16,3 @@
 } */
 
 
-::-webkit-input-placeholder {
-    text-align: center;
-    font-style: italic;
- }
- 
- :-moz-placeholder { /* Firefox 18- */
-    text-align: center;  
-    font-style: italic;
- }
- 
- ::-moz-placeholder {  /* Firefox 19+ */
-    text-align: center;  
-    font-style: italic;
- }
- 
- :-ms-input-placeholder {  
-    text-align: center; 
-    font-style: italic;
- }

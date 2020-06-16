@@ -1,10 +1,11 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = () => {
     return (
-        <footer style={{position: 'absolute', bottom: '0', width: '100%', height: '2.5rem' }}>
-            <a href='https://github.com/pullani/react-clarifai-face-detection' target="_blank" rel="noopener noreferrer" className='f4 link dim black underline pa3 pointer'>Git-hub</a>
-        </footer>
+        <div className='footer'>
+            <a  className='f4 link dim light-gray pointer' href='https://github.com/pullani/react-clarifai-face-detection' target="_blank" rel="noopener noreferrer">Git-hub</a>
+        </div>
     );
 }
 
