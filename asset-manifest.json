@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-clarifai-face-detection/static/css/main.9f86f7c2.chunk.css",
-    "main.js": "/react-clarifai-face-detection/static/js/main.cda9b854.chunk.js",
-    "main.js.map": "/react-clarifai-face-detection/static/js/main.cda9b854.chunk.js.map",
+    "main.js": "/react-clarifai-face-detection/static/js/main.708db74c.chunk.js",
+    "main.js.map": "/react-clarifai-face-detection/static/js/main.708db74c.chunk.js.map",
     "runtime-main.js": "/react-clarifai-face-detection/static/js/runtime-main.fb104765.js",
     "runtime-main.js.map": "/react-clarifai-face-detection/static/js/runtime-main.fb104765.js.map",
     "static/css/2.3c03f26f.chunk.css": "/react-clarifai-face-detection/static/css/2.3c03f26f.chunk.css",
     "static/js/2.a1c25cee.chunk.js": "/react-clarifai-face-detection/static/js/2.a1c25cee.chunk.js",
     "static/js/2.a1c25cee.chunk.js.map": "/react-clarifai-face-detection/static/js/2.a1c25cee.chunk.js.map",
     "index.html": "/react-clarifai-face-detection/index.html",
-    "precache-manifest.ab6dbe77d7a1448dd07d71c2b6c47763.js": "/react-clarifai-face-detection/precache-manifest.ab6dbe77d7a1448dd07d71c2b6c47763.js",
+    "precache-manifest.e165e59df978b27fffe1274ba5928a61.js": "/react-clarifai-face-detection/precache-manifest.e165e59df978b27fffe1274ba5928a61.js",
     "service-worker.js": "/react-clarifai-face-detection/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/react-clarifai-face-detection/static/css/2.3c03f26f.chunk.css.map",
     "static/css/main.9f86f7c2.chunk.css.map": "/react-clarifai-face-detection/static/css/main.9f86f7c2.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.a1c25cee.chunk.js",
     "static/css/main.9f86f7c2.chunk.css",
-    "static/js/main.cda9b854.chunk.js"
+    "static/js/main.708db74c.chunk.js"
   ]
 }
