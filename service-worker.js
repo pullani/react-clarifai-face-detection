@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-clarifai-face-detection/precache-manifest.92031ef519832e61a6c576dee89a51b5.js"
+  "/react-clarifai-face-detection/precache-manifest.fc2de0c446af64b7fe1e3beae25db8bb.js"
 );
 
 self.addEventListener('message', (event) => {
