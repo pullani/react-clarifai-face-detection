@@ -2,8 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 <p align='center'>
-  <img src="https://github.com/pullani/react-clarifai-face-detection/blob/master/sample_web.jpg" height="400px" />
-  <img src="https://github.com/pullani/react-clarifai-face-detection/blob/master/sample_mobile.jpg" height="400px" />
+  <img src="https://github.com/pullani/react-clarifai-face-detection/blob/master/demo.jpg" />
 </p>
 
 ## Available Scripts
