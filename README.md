@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![alt text](https://github.com/pullani/react-clarifai-face-detection/blob/master/sample_web.jpg?raw=true)
+
+![alt text](https://github.com/pullani/react-clarifai-face-detection/blob/master/sample_mobile.jpg?raw=true)
+
 ## Available Scripts
 
 In the project directory, you can run:
