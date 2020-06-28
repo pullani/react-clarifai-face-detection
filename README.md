@@ -1,8 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![alt text](https://github.com/pullani/react-clarifai-face-detection/blob/master/sample_web.jpg?raw=true)
 
-![alt text](https://github.com/pullani/react-clarifai-face-detection/blob/master/sample_mobile.jpg?raw=true)
+<p align='center'>
+  <img src="https://github.com/pullani/react-clarifai-face-detection/blob/master/sample_web.jpg" height="400px" />
+  <img src="https://github.com/pullani/react-clarifai-face-detection/blob/master/sample_mobile.jpg" height="400px" />
+</p>
 
 ## Available Scripts
 
